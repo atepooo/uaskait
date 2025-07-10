@@ -140,7 +140,7 @@ footer {
   position: relative;
   width: 100%;
   height: 20vh;
-  background-image: url('beranda.jpeg');
+  background-image: url('..beranda.jpeg');
   background-size: cover;
   background-position: center;
   display: flex;
