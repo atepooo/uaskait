@@ -1,3 +1,4 @@
+
 /* Reset dan global */
 * {
   margin: 0;
@@ -174,7 +175,8 @@ footer {
 }
 
 @media (max-width: 768px) {
-  main {
+  #produk {
+    display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
@@ -185,15 +187,15 @@ footer {
     flex: 0 0 auto;
     scroll-snap-align: start;
     width: 80%;
-    max-width: 300px;
+    max-width: 280px;
     margin-right: 16px;
   }
 
-  main::-webkit-scrollbar {
+  #produk::-webkit-scrollbar {
     display: none;
   }
 
-  main {
+  #produk {
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
