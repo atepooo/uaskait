@@ -175,7 +175,7 @@ footer {
 /* Responsif */
 @media (max-width: 1024px) {
   .product {
-    width: 45%;
+    width: 25%;
   }
 }
 
@@ -186,7 +186,7 @@ footer {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
-    width: 100vw;
+    width: 70vw;
     white-space: nowrap; /* 
   }
 
