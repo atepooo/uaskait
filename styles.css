@@ -205,23 +205,3 @@ footer {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
   margin: 0;
 }
-@media (max-width: 768px) {
-  main {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-  }
-
-  .product {
-    flex: 0 0 auto;
-    scroll-snap-align: start;
-    width: 80%;
-    max-width: 300px;
-    margin-right: 16px;
-  }
-}
-<main id="produk">
-  <section class="product">...</section>
-  <section class="product">...</section>
-  ...
-</main>
