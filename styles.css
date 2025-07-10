@@ -1,8 +1,12 @@
-/* Reset dan global */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: visible;
 }
 
 body {
@@ -136,6 +140,7 @@ footer {
   border-radius: 10px;
 }
 
+/* Gambar beranda responsif */
 #beranda {
   position: relative;
   width: 100%;
@@ -182,12 +187,13 @@ footer {
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     width: 100vw;
+    white-space: nowrap; /* 
   }
 
   .product {
     flex: 0 0 100vw;
-    scroll-snap-align: start;
     max-width: 100vw;
+    scroll-snap-align: start;
     margin-right: 0;
   }
 
